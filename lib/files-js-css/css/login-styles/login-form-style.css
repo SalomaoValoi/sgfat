@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('/fonts/poppins/Poppins-Regular.ttf')/*Para os demais navegadores*/;
+    font-weight: normal;
+    font-style: normal;
+}
+fieldset{
+    border-color: #00C076;
+    border-radius: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    height: 20rem;
+    padding: 20px;
+
+}
+p{
+    margin: 10px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color:white;
+  }
+  label{
+      color:#002860;
+      text-align: right;
+  }
+  input{
+    border-style: none;
+    padding-left: 10px;
+  }
+  input#telefone, input#senha{
+      background-color: #002860;
+      border-radius: 30px;
+      height: 3rem;
+      
+  }
+  input::placeholder{
+      color:white;
+  }
+  input[type="submit"]{
+      background-color:#00C076;
+      color:#002860;
+      font-style: bold;
+      border-radius:10px;
+      height: 40px;
+      width: 100px;
+  }
+  p#btn-submit{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+.form{
+    margin-top: 4rem;
+    display:grid;
+    place-items: center;
+    justify-content: center;
+}

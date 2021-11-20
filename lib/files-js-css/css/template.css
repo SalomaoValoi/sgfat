@@ -1,0 +1,286 @@
+
+*{
+    box-sizing:border-box;
+    font-style: normal;
+}
+
+@font-face {
+    src: url(../fonts/SourceSansPro-SemiBold.ttf);
+    font-family: 'SourceSansPro-SemiBold';    
+    font-weight: 500 !important;
+} 
+
+body{
+    margin: 0;
+    background-color: #F3F5F8;
+    color:#676a6d;
+    font-family: 'SourceSansPro-SemiBold';  
+    font-weight: 500 !important;
+}
+
+input[type="text"]{
+    font-weight: 400 !important;
+}
+
+
+.carregando{
+    color:#ff0000;
+    display:none;
+}
+
+.carregando2{
+    color:#ff0000;
+    display:none;
+}
+
+
+#i{
+    margin-left:10px;
+}
+
+.formularios{
+    margin-top:10px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tabelas{
+    margin-top:10px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form_cabecalho{
+    padding: 12px;
+    height: 70px;
+    background: #fff;
+    text-transform: uppercase;
+    line-height: 45px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+}
+
+
+.tabelas-visualizar{
+    color:#676a6d;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+    background: #fff;
+}
+
+
+
+.spn_forms{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+#pages{
+    text-decoration: none;
+    border: 1px solid;
+    border-width: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 10px;
+
+}
+
+#container_main{
+    padding-top: 72px;
+}
+.coluna1{
+    line-height: 40px;
+    background-color: #1f232a;
+}
+
+.coluna2{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.coluna3{
+    margin: 0;
+    padding: 0;
+    height: 1400px;
+    background-color: #1f232a;
+}
+
+.clna1{
+    color:rgba(204, 204, 204, 0.623);
+}
+.clna11{
+    color:rgb(175, 175, 175);
+}
+.nvheader{
+    background-color: #262a31;
+}
+.loggedUser{
+    width:100%;
+    height:120px;
+    padding-top:6px;
+    border-top: 1px solid #262a31;
+    border-bottom: 1px solid #262a31;
+    background-color: #1f232a;
+}
+
+.view{
+    width:100%;
+    height: 1400px;
+}
+
+.footer{
+    line-height:20px;
+}
+
+
+.userName{
+    width:100%;
+    height:20px;
+    margin-top:5px;
+    font-size:13px;
+}
+
+.arrow{
+    margin-top:13px;
+    width:16px;
+    margin-right: 2px;
+
+}
+
+
+.nvbar #hvr #drpdn-m :hover{
+    background-color: #ffffff;
+}
+.nvbar li :hover{
+    background-color: #00000083 ;
+} 
+
+.nvbar li a {
+    display: block;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .coluna3{
+        border-bottom-left-radius:0;
+        height: 600px;
+    }
+    .container_main{
+        padding-top: 100px;
+    }
+
+
+}
+
+[class^='select2'] {
+    border-radius:0px !important;
+    margin-left:1px !important;
+}
+
+
+[class^='b']{
+    margin-left:0px !important;
+}
+
+.desc{
+    border:1px solid grey;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size:17px;
+    width:470px;
+    height:40px;
+    line-height:40px;
+    margin-bottom: 50px;
+    background-color: #28a745;
+    color:#fff;
+}
+/*322348*/
+
+#input{
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    outline: 0;
+}
+
+#span{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+.form-control:focus{
+    border-color: #ccc;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+
+
+.spinner{
+    position: absolute;
+    top:55%;
+    right:43%;
+}
+
+.spinner-wrapper{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+
+#i{
+    color:#999999;
+}
+
+#i:hover{
+    color:#fff;
+}
+/*343a40*/
+
+
+
+.inner{
+ margin:auto;
+ max-width:700px;
+ height:200px;
+ color:#8a8a8a;
+ text-align:center;
+ margin-top:250px;
+ font-size:50px;
+ border:2px solid #ccc;
+ line-height: 100px;
+ background-color: #ccc;
+}
+
+
+
+.db{
+   
+    height: 1200px;
+    padding-top: 5px;
+}
+
+.caixas{
+    background-color: #5492be;
+    border-radius:4px !important;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 8%);
+    color:#fff;
+}
+
+
